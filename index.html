@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Viva!</title>
+</head>
+
+<body>
+
+    <div class="imagens">        
+
+        <img src="img/campo.png" alt="campo" class="campo">
+
+        <div class="porta-div">
+
+            <img src="img/porta.png" alt="porta" class="porta" id="porta">
+        </div>
+
+        <div class="carlos-div">
+            <img src="img/carlos.gif" alt="carlos" class="carlos">
+        </div>
+
+        <audio  src="audio/knock.wav" id="batendo_na_porta"></audio>  
+        <audio  src="audio/wingame.wav" id="finalizacao"></audio>
+
+
+
+        
+        <div class="botoes">
+            <button  onclick="playAudio()" class="botao" id="tocar-musica">Tocar (gentilmente)</button>
+            <button onclick="pauseAudio()" class="botao" id="pausar-musica">Pausar</button>
+        </div>
+
+        <div class="botao_resetar" >
+            <button  onclick="resetarPagina()" class="botao_resetar_principal" id="resetar">Brincar novamente com carlinhos</button>
+        </div>
+
+        <audio id="tocando">
+            <source  src="audio/knock.wav" type="audio/mp3" preload="auto"></source>
+        </audio>
+
+        <audio id="vitoria">
+            <source  src="audio/wingame.wav" type="audio/mp3" preload="auto"></source>
+        </audio>
+
+        <audio id="musica">
+            <source  src="audio/musica.mp3" type="audio/mp3" preload="auto"></source>
+        </audio>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

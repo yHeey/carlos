@@ -1,0 +1,65 @@
+.musica {
+    display: none;
+}
+.botoes {
+    position: absolute;
+    margin-left: 25em;
+}
+
+.porta-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25em;
+}
+
+.carlos-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.carlos {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 40em;
+    margin-top: 10em;
+}
+
+.porta {
+    display: flex;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+.campo {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.botao_resetar {
+    position: absolute;
+    display: none;
+    margin-left: 45em;
+    margin-top: 14em
+
+}
+
+.botao_resetar_principal {
+    display: none;
+}
+
+.aberta.png {
+    width: 400px;
+}
